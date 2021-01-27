@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(124, 124, 124);
+}
+
+#calendar {
+    margin: 0 auto;
+    margin-top: 300px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.week {
+    display: flex;
+}
+
+.weekname {
+    width: 50px;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.daynum {
+    width: 50px;
+    line-height: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.daynum .empty {
+    pointer-events: none;
+}
+
+.daynum:hover {
+    background: gray;
+    color: white;
+    border-radius: 100px;
+}
